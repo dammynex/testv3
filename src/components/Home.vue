@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { onMounted, ref, watch } from "nativescript-vue";
-import { setTimeout } from "@nativescript/core/timer";
 
 const text = ref("");
 const tf = ref(null);
